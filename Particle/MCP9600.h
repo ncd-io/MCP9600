@@ -80,9 +80,11 @@ public:
     double readTemp();
     double temp;
     
+    //Sensor configuration
     int sensor = MCP9600_TYPE_K;
     int filter = MCP9600_FILTER_0;
     
+    //Device configuration
     int sensor_resolution = MCP9600_SENSOR_RESOLUTION_0625;
     int adc_resolution = MCP9600_ADC_RESOLUTION_14;
     int samples = MCP9600_SAMPLES_1;
